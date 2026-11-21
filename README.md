@@ -17,4 +17,4 @@ lake build
 
 ## Proof guide
 
-[Read the proof idea in Chinese](brief.md). The [gap-table generator](https://github.com/EternalYMZ/Project-S/tree/main/playground) enumerates product tables from the length and two bases.
+[Read the proof guide](brief.md). The [gap-table generator](https://github.com/EternalYMZ/Project-S/tree/main/playground) enumerates product tables from the length and two bases.

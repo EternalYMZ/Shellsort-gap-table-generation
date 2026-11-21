@@ -1,13 +1,11 @@
-# 一张表已经够好，怎样在排序之前知道？
+# Certifying a gap table before sorting
 
-固定规模 $n$，对均匀随机排列执行普通 Shellsort，用 $C(w,\pi)$ 记预定表 $w$ 在输入 $\pi$ 上的实际键比较数。两种选表任务很接近，却需要不同的证据。
+For fixed $n$, let $C(w,\pi)$ count actual key comparisons under a predetermined table and a uniform input permutation. A gap-$h$ pass must visit $n-h$ noninitial chain slots. Each visit compares at least once, even on sorted input. Consequently
+$$S(w)=\sum_{h\in w}(n-h)\le\mathbb E_\pi C(w,\pi).$$
+Given an incumbent of mean at most $B$, discard candidates with $S(w)>B$. Equality cannot improve the incumbent, but may hide a tied winner. Keeping equality preserves all possible ties. Lean gives a pruning certificate preserving the exact minimum.
 
-**要确认精确最优，可以先排除一批表。** 间隔 $h$ 的一趟有 $n-h$ 个不在链首的槽。线性插入处理每个这样的槽都至少做一次键比较，即使数组原本有序。于是每张表都有一个只须看间隔就能算出的下界
-$$
-S(w)=\sum_{h\in w}(n-h)\le \mathbb E_\pi C(w,\pi).
-$$
-如果已知一张表的均值至多为 $B$，则 $S(w)>B$ 的候选全部出局。若只求最小值，$S(w)=B$ 的表也不可能改进已有见证；若要找全并列赢家，仅凭这个下界则不能排除等号。Lean 给出保留等号时保持精确最小值的证书。余下的候选仍可能很多。[精确最小值的剪枝条件](https://github.com/EternalYMZ/Shellsort-gap-table-generation/blob/73b376a6ada92ee96a2e1af83878cd27bdae2c33/Shellsort/OptimalScanPruning.lean)
+For the different task of finding a table of mean order $n\log n$, a constant-factor loss is acceptable. Draw candidate tables from the specified family and score them on permutations independent of the future input. Capping a trial's comparisons can make a table with rare expensive inputs appear cheap. Higher moments of squared displacement at block boundaries bound the proportion of candidates with large tails and control truncation loss. Drawing a table and drawing a test permutation are distinct random choices.
 
-**要找到一张平均达到 $O(n\log n)$ 的表，可以接受常数倍差距。** 从项目指定的候选族随机抽表，用独立于将来输入的排列实跑评分。困难在于，若测试设有比较上限，一张偶尔极差的表可能因测试被截断而显得便宜。证明先控制各组结束时平方位移的高阶矩，再界定尾部过大的候选所占比例，才能说明截断损失。这里抽表与抽测试排列是两次不同的随机选择。[实际前缀的矩估计](https://github.com/EternalYMZ/Shellsort-gap-table-generation/blob/73b376a6ada92ee96a2e1af83878cd27bdae2c33/Shellsort/ActualMenuMoment.lean) · [抽表后的尾界](https://github.com/EternalYMZ/Shellsort-gap-table-generation/blob/73b376a6ada92ee96a2e1af83878cd27bdae2c33/Shellsort/PredrawnMenuMoment.lean)
+The public formal results include the moment estimates and pruning theorem. The full planning cost of randomized selection is studied analytically. Cheap exact minimization for every size and convergence of the optimal leading coefficient remain separate problems.
 
-本仓库公开核验了这些中间估计及剪枝定理。随机选出达阶表的完整规划开销有解析论证；对每个 $n$ 廉价确定精确最优表，以及最优首项常数是否收敛，仍待证明。
+[OptimalScanPruning.lean](https://github.com/EternalYMZ/Shellsort-gap-table-generation/blob/73b376a6ada92ee96a2e1af83878cd27bdae2c33/Shellsort/OptimalScanPruning.lean) · [ActualMenuMoment.lean](https://github.com/EternalYMZ/Shellsort-gap-table-generation/blob/73b376a6ada92ee96a2e1af83878cd27bdae2c33/Shellsort/ActualMenuMoment.lean) · [PredrawnMenuMoment.lean](https://github.com/EternalYMZ/Shellsort-gap-table-generation/blob/73b376a6ada92ee96a2e1af83878cd27bdae2c33/Shellsort/PredrawnMenuMoment.lean)
