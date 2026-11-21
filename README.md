@@ -14,3 +14,7 @@ lake build
 ```
 
 [Shellsort.lean](Shellsort.lean) imports the included modules and prints the selected statements and their axioms. Sources and dependency revisions are pinned. Supporting modules may also occur in other paper repositories.
+
+## Proof guide
+
+[Read the proof idea in Chinese](brief.md). The [gap-table generator](https://github.com/EternalYMZ/Project-S/tree/main/playground) enumerates product tables from the length and two bases.
