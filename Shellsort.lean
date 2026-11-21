@@ -1,0 +1,33 @@
+import Shellsort.ActualMenuMoment
+import Shellsort.AdjacentComparisonSensitivity
+import Shellsort.AppendLargestCost
+import Shellsort.CanonicalWarmStart
+import Shellsort.CoarseThresholdPlanner
+import Shellsort.FirstGapOptimumThreshold
+import Shellsort.GapEditBarrier
+import Shellsort.OnlineTripleCorrection
+import Shellsort.OnlineTripleGaps
+import Shellsort.OptimalScanPruning
+import Shellsort.PredrawnMenuMoment
+import Shellsort.RankMesh
+import Shellsort.RoughGapApproximate
+import Shellsort.RoughGapCanonical
+import Shellsort.RoughGapResidueAverage
+import Shellsort.SecondGapSavingsCertificate
+import Shellsort.ShiftedKernelEnergy
+import Shellsort.SizeLayerGaps
+import Shellsort.ThresholdOccupancyLaw
+import Shellsort.WinnerGapIndexRecurrence
+
+#check Shellsort.ActualMenuMoment.actual_prefix_moment
+#print axioms Shellsort.ActualMenuMoment.actual_prefix_moment
+#check Shellsort.PredrawnMenuMoment.fraction_large_prefix
+#print axioms Shellsort.PredrawnMenuMoment.fraction_large_prefix
+#check Shellsort.PredeterminedOptimum.exact_minimum_of_scan_budget
+#print axioms Shellsort.PredeterminedOptimum.exact_minimum_of_scan_budget
+#check Shellsort.ThresholdOccupancyLaw.gap_threshold_permutation_count
+#print axioms Shellsort.ThresholdOccupancyLaw.gap_threshold_permutation_count
+#check Shellsort.CanonicalWarmStart.exists_minimizing_block_step
+#print axioms Shellsort.CanonicalWarmStart.exists_minimizing_block_step
+#check Shellsort.CanonicalWarmStart.geometric_budget
+#print axioms Shellsort.CanonicalWarmStart.geometric_budget
