@@ -1,0 +1,319 @@
+{
+  "n": 1000000000,
+  "logarithm_series_terms": 32,
+  "rounding_grid_denominator": "1000000000000000000000000000000000000000000000",
+  "numeric_lower_bounds_are_exactly_certified": true,
+  "optimization_claim": "Rational t witnesses near numerical envelope maximizers; no global optimizer claim is needed for the lower bounds.",
+  "pass_results": [
+    {
+      "at_most_passes": 3,
+      "t_exact": "0.996912471162576169901",
+      "cutoff": 3890,
+      "lower_bound_total_comparisons": 970914880183,
+      "minimizing_chain_length_at_this_t": 1290,
+      "fixed_t_relaxation_per_key": {
+        "lower": "970.91488018364074250771636333230421595550766966949511571686105831",
+        "upper": "970.91488018364074250771636333360187352214068538955834355894576483"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "970.91487655909329691819319450576612337297736590730203864956991310",
+        "upper": "970.91487655909329691819319450706378093264764584696324741676029419"
+      },
+      "long_chain_a_L": {
+        "lower": "973.24772660446511276650094985465677316823734140571962664397222331",
+        "upper": "973.24772660446511276650094985465677316823734140571962664397222332"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 4,
+      "t_exact": "0.983302817119471821455",
+      "cutoff": 970,
+      "lower_bound_total_comparisons": 238895238699,
+      "minimizing_chain_length_at_this_t": 234,
+      "fixed_t_relaxation_per_key": {
+        "lower": "238.89523869951644012651853082573987772031774595614877419770280900",
+        "upper": "238.89523869951644012651853082579368413238107649665843760809734622"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "238.89523803387294481002944727298896771096376492072587925807360989",
+        "upper": "238.89523803387294481002944727304277412286117693927153570660711544"
+      },
+      "long_chain_a_L": {
+        "lower": "243.24231440503943421326872018195093202776509355868379522205982206",
+        "upper": "243.24231440503943421326872018195093202776509355868379522205982207"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 5,
+      "t_exact": "0.954488469800381056532",
+      "cutoff": 450,
+      "lower_bound_total_comparisons": 109329550025,
+      "minimizing_chain_length_at_this_t": 83,
+      "fixed_t_relaxation_per_key": {
+        "lower": "109.32955002553244702124656470423897062044805540615650354721330407",
+        "upper": "109.32955002553244702124656470424897594900766734888198188023212843"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "109.32954978490825395087021395453333536826203935986744867654434492",
+        "upper": "109.32954978490825395087021395454334069680294869450494924473561838"
+      },
+      "long_chain_a_L": {
+        "lower": "113.23513872456165649135811841122137111075565925957910853233231780",
+        "upper": "113.23513872456165649135811841122137111075565925957910853233231781"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 6,
+      "t_exact": "0.912278761631825846716",
+      "cutoff": 285,
+      "lower_bound_total_comparisons": 67893789866,
+      "minimizing_chain_length_at_this_t": 41,
+      "fixed_t_relaxation_per_key": {
+        "lower": "67.893789866059560102137504824990404511641904985251532722174334023",
+        "upper": "67.893789866059560102137504824994233782798069205242854651849899586"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "67.893789743978674884279297252728457110818304551895401191991917119",
+        "upper": "67.893789743978674884279297252732286381969448090325613350894138897"
+      },
+      "long_chain_a_L": {
+        "lower": "71.978135234367790687237069157465712581970244108744332718979494539",
+        "upper": "71.978135234367790687237069157465712581970244108744332718979494540"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 7,
+      "t_exact": "0.861829707674505021083",
+      "cutoff": 210,
+      "lower_bound_total_comparisons": 50017343203,
+      "minimizing_chain_length_at_this_t": 24,
+      "fixed_t_relaxation_per_key": {
+        "lower": "50.017343203174648699650393716189365186602577027375090816921252956",
+        "upper": "50.017343203174648699650393716191339022640420199655943314052422613"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "50.017343127798799929426821614052325149401776960092175918335030695",
+        "upper": "50.017343127798799929426821614054298985437576191466337145930679429"
+      },
+      "long_chain_a_L": {
+        "lower": "53.221777608293526228586051370384570026939136845329826113731368447",
+        "upper": "53.221777608293526228586051370384570026939136845329826113731368448"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 8,
+      "t_exact": "0.807360223728423898574",
+      "cutoff": 175,
+      "lower_bound_total_comparisons": 40875955994,
+      "minimizing_chain_length_at_this_t": 16,
+      "fixed_t_relaxation_per_key": {
+        "lower": "40.875955994018391283612817170143241559982028797390235534192269640",
+        "upper": "40.875955994018391283612817170144524773791734744772750970375822958"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "40.875955941640005472332835580301718490538552530559766829193893634",
+        "upper": "40.875955941640005472332835580303001704347199298349143702883054545"
+      },
+      "long_chain_a_L": {
+        "lower": "44.467172251082270631734385034066222625702314791143680474205297151",
+        "upper": "44.467172251082270631734385034066222625702314791143680474205297152"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 9,
+      "t_exact": "0.753708555890462242035",
+      "cutoff": 155,
+      "lower_bound_total_comparisons": 35707308655,
+      "minimizing_chain_length_at_this_t": 11,
+      "fixed_t_relaxation_per_key": {
+        "lower": "35.707308655130055627125690354591364938397027044202514381632783215",
+        "upper": "35.707308655130055627125690354592335053527023617217322525682050843"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "35.707308615490000168370789282234988267818721872129316478758581066",
+        "upper": "35.707308615490000168370789282235958382948068246512861691104775395"
+      },
+      "long_chain_a_L": {
+        "lower": "39.463717012131111342959941960635730629550345526399969943369307726",
+        "upper": "39.463717012131111342959941960635730629550345526399969943369307727"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 10,
+      "t_exact": "0.702006571958902461044",
+      "cutoff": 145,
+      "lower_bound_total_comparisons": 32612276232,
+      "minimizing_chain_length_at_this_t": 8,
+      "fixed_t_relaxation_per_key": {
+        "lower": "32.612276232303131539605385547614757981293303803657255825599347183",
+        "upper": "32.612276232303131539605385547615421184296516489445850032159772029"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "32.612276200624753614561937325794621726123371596213261706157325537",
+        "upper": "32.612276200624753614561937325795284929126140292235676726249913988"
+      },
+      "long_chain_a_L": {
+        "lower": "36.961673146760913422795746149997660218498800142350261546301934344",
+        "upper": "36.961673146760913422795746149997660218498800142350261546301934345"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 11,
+      "t_exact": "0.653632702927725151992",
+      "cutoff": 135,
+      "lower_bound_total_comparisons": 30712752631,
+      "minimizing_chain_length_at_this_t": 6,
+      "fixed_t_relaxation_per_key": {
+        "lower": "30.712752631353820537968376393823154022258001638096764170674304142",
+        "upper": "30.712752631353820537968376393823700946252221752855876585764739178"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "30.712752604994575989999884610996171475099202451234421741752856030",
+        "upper": "30.712752604994575989999884610996718399093095163167468087484444354"
+      },
+      "long_chain_a_L": {
+        "lower": "34.459361558706703362219288445471146535506554581151035042520227490",
+        "upper": "34.459361558706703362219288445471146535506554581151035042520227491"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 12,
+      "t_exact": "0.607297935758757294376",
+      "cutoff": 130,
+      "lower_bound_total_comparisons": 29554390596,
+      "minimizing_chain_length_at_this_t": 5,
+      "fixed_t_relaxation_per_key": {
+        "lower": "29.554390596500207636676621871684762986764311186880428677399647183",
+        "upper": "29.554390596500207636676621871685229325266635091786848116196726743"
+      },
+      "original_n_log_n_minus_n_relaxation_per_key": {
+        "lower": "29.554390574026972172616387716928915527236253404341741233268188863",
+        "upper": "29.554390574026972172616387716929381865738324356841870407037855369"
+      },
+      "long_chain_a_L": {
+        "lower": "33.208087758936415567745120404130370830023466087197496878452459664",
+        "upper": "33.208087758936415567745120404130370830023466087197496878452459665"
+      },
+      "checks": {
+        "all_short_chain_lower_endpoints_exceed_target": true,
+        "long_chain_first_pass_alone_exceeds_target": true,
+        "positive_denominator": true
+      },
+      "passed": true
+    }
+  ],
+  "eight_pass_scalar_cap": {
+    "t_lower": "0.807360223",
+    "t_upper": "0.807360225",
+    "D_lower_t": {
+      "lower": "4.0610032888448518739515936360803524374793600829406591949595124375E-8",
+      "upper": "4.0610032888448518739516210949741653276254469306873943435368490902E-8"
+    },
+    "D_upper_t": {
+      "lower": "-4.0117209924383432138991949997191790652973755727132787543486281585E-8",
+      "upper": "-4.0117209924383432138991675408252394037434910402509530871804641590E-8"
+    },
+    "upper_cap_per_key": {
+      "lower": "40.875956181494836093977159211480628228545422697045849637260211737",
+      "upper": "40.875956181494836093977159211480628228545422697045849637260211738"
+    },
+    "checks": {
+      "D_at_lower_positive": true,
+      "D_at_upper_negative": true,
+      "cap_below_40_876_per_key": true
+    },
+    "passed": true
+  },
+  "eight_pass_finite_alphabet_barrier": {
+    "gap_table": [
+      62500000,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "artificial_record_law": {
+      "random_coordinates": 6999997200,
+      "total_suffix_coordinates": 6999999972,
+      "t": "101/125",
+      "support_m": "0,...,99",
+      "all_coordinates_with_j_less_than_100": "m=0"
+    },
+    "mean_total_cost": {
+      "lower": "40997025574.237126397859837259223233799518443422314826817357628193",
+      "upper": "40997025574.237126397859837259223233799518443422314826817357628194"
+    },
+    "entropy_margin_above_required_upper_bound": {
+      "lower": "25854480.452004805078319509424447978511580615897753959597516042705",
+      "upper": "25854480.452004805078319509424770019476171275721151319494137019230"
+    },
+    "entropy_per_random_digit": {
+      "lower": "2.5474480307637322694860157620351203765508355142394276049992585772",
+      "upper": "2.5474480307637322694860157620351513199936156461288942966283096541"
+    },
+    "checks": {
+      "cost_below_41_billion": true,
+      "entropy_above_actual_required": true
+    },
+    "scope": "Artificial law on allowed insertion digits, not asserted realizable by Shellsort. It certifies a barrier for the entropy-and-digit-range relaxation only.",
+    "passed": true
+  },
+  "passed": true
+}

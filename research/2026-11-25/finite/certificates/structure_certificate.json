@@ -1,0 +1,28 @@
+{
+  "n": 1000000000,
+  "gcd_transport": {
+    "integer_lower_bound": 190181443578,
+    "square_certificate_slack": 1921094721261568,
+    "next_integer_square_excess": 8595178382855168,
+    "suffix_max_gap_3_lower_bound": 63393814526
+  },
+  "first_pass_length_16": {
+    "c16": "8507735836635473/108086391056891904",
+    "a16": "52338161/11531520",
+    "footrule_lower_bound": "32454429829444963688978515625/412316860416",
+    "max_suffix_gap_necessary_bound": "249499271111227458452486355/288202799850331308032",
+    "max_suffix_gap_necessary_integer": 865708
+  },
+  "counterexample": {
+    "n": 8,
+    "prefix": [
+      5,
+      3
+    ],
+    "next_gap": 1,
+    "depth": 1,
+    "count": 20880,
+    "total": 40320,
+    "probability": "29/56"
+  }
+}

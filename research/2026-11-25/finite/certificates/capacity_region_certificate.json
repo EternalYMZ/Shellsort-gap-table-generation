@@ -1,0 +1,15 @@
+{
+  "n": 1000000000,
+  "first_gap": 62500000,
+  "second_gap_min": 7,
+  "second_gap_max": 1388888,
+  "pass_count": 8,
+  "ratio_lower": 45,
+  "kappa_16": "268435456/300540195",
+  "lower_bound_per_key": "174413632831749931/3465685269446400",
+  "target_per_key": "251629/5000",
+  "positive_margin_per_key": "6227466107347/86642131736160000",
+  "claim_total_strictly_greater_than": 50325800000,
+  "passed": true,
+  "scope": "Every legal strictly decreasing exactly-eight-pass table with h1=62500000, 7<=h2<=1388888, and final gap 1."
+}

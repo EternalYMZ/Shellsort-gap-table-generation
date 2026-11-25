@@ -4,6 +4,8 @@ Miaozhen Yu (俞缪臻) · [Project S directory](https://github.com/EternalYMZ/O
 
 Six roots cover prefix moments, a menu tail bound, pruning with a comparison budget, occupancy counts and conditional warm-start budgets. End-to-end planner complexity and inexpensive generation of an exact optimal table remain separate research claims.
 
+The November 25 update adds an order-uniform conditional moment bound, replayable seven- and eight-pass comparison certificates, a census of product gap tables at one billion keys and exact all-winner searches through nine keys. [Results, conditions and reproduction](research/2026-11-25/README.md)
+
 ## Check the Lean statements
 
 With Git and elan installed, run from the repository root:

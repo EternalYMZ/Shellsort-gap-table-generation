@@ -1,0 +1,196 @@
+{
+  "n": 1000000000,
+  "at_most_passes": 8,
+  "logarithm_series_terms": 32,
+  "outward_rounding_denominator": "1000000000000000000000000000000000000000000000",
+  "sqrt_method": "Integer square-root floor/ceiling on exact rational endpoints.",
+  "model": "Uniform random distinct keys; fixed legal ordinary insertion Shellsort gap table ending in 1.",
+  "scope": "Exact scalar certificate; no Lean formalization or global numerical optimality claim.",
+  "simple_certificate": {
+    "t_exact": "0.8074055",
+    "u_exact": "0.80776465",
+    "retain_chain_length_mixture": false,
+    "total_comparison_lower_bound": 40886229262,
+    "improvement_over_certified_one_temperature_bound": 10273268,
+    "gap_to_50_billion": 9113770738,
+    "uniform_per_key_bound": {
+      "lower": "40.886229262593271711513128155263811341319284508",
+      "upper": "40.886229262593271711513128155265384033478978775"
+    },
+    "smallest_rows": [
+      {
+        "m": 16,
+        "bound_per_key": {
+          "lower": "40.886229262593271711513128155263811341319284508",
+          "upper": "40.886229262593271711513128155265384033478978775"
+        },
+        "method": "minimum_of_adjacent_lengths"
+      },
+      {
+        "m": 15,
+        "bound_per_key": {
+          "lower": "40.886882076524687691475385477700454099074041405",
+          "upper": "40.88688207652468769147538547770203172780826801"
+        },
+        "method": "minimum_of_adjacent_lengths"
+      },
+      {
+        "m": 17,
+        "bound_per_key": {
+          "lower": "40.892671156279586190419228720009752018555052295",
+          "upper": "40.892671156279586190419228720011317747598857669"
+        },
+        "method": "minimum_of_adjacent_lengths"
+      },
+      {
+        "m": 14,
+        "bound_per_key": {
+          "lower": "40.894311009985454045473246068244582041588753634",
+          "upper": "40.89431100998545404547324606824616759581961571"
+        },
+        "method": "minimum_of_adjacent_lengths"
+      },
+      {
+        "m": 18,
+        "bound_per_key": {
+          "lower": "40.911495855523499816112272668866874797596928549",
+          "upper": "40.911495855523499816112272668868433973821169155"
+        },
+        "method": "minimum_of_adjacent_lengths"
+      }
+    ],
+    "w": {
+      "lower": "0.002078822495184939127314324401700034170993958",
+      "upper": "0.002078822495184939127314324401731417265816755"
+    },
+    "B": {
+      "lower": "6.709357979603019907965266998596117986620201805",
+      "upper": "6.709357979603019907965266998596301915744089152"
+    },
+    "K": {
+      "lower": "0.013947564296247331764198207956435529616817815",
+      "upper": "0.013947564296247331764198207956646472390492044"
+    },
+    "correction": {
+      "lower": "-0.010284149404240454407713564012105458111157545",
+      "upper": "-0.010284149404240454407713564011971779637045961"
+    },
+    "long_chain_first_pass_per_key": {
+      "lower": "50.970731313072141522742319876591586762976057091419703005866749353",
+      "upper": "50.970731313072141522742319876591586762976057091419703005866749354"
+    },
+    "checks": {
+      "ordered_temperatures": true,
+      "positive_w": true,
+      "positive_B": true,
+      "all_m_1_through_200_above_integer_target": true,
+      "m_at_least_201_first_pass_alone_above_target": true,
+      "one_pass_table_above_target": true
+    },
+    "passed": true
+  },
+  "retained_mixture_certificate": {
+    "t_exact": "0.8071469627378816",
+    "u_exact": "0.8075234450681327",
+    "retain_chain_length_mixture": true,
+    "total_comparison_lower_bound": 40889677530,
+    "improvement_over_certified_one_temperature_bound": 13721536,
+    "gap_to_50_billion": 9110322470,
+    "uniform_per_key_bound": {
+      "lower": "40.889677530888338709797114849179824868516376524",
+      "upper": "40.889677530888338709797114849181621982036785662"
+    },
+    "smallest_rows": [
+      {
+        "m": 16,
+        "bound_per_key": {
+          "lower": "40.889677530888338709797114849179824868516376524",
+          "upper": "40.889677530888338709797114849181621982036785662"
+        },
+        "method": "retained_chain_length_mixture",
+        "mixture_bound_per_key": {
+          "lower": "40.889677530888338709797114849179824868516376524",
+          "upper": "40.889677530888338709797114849181621982036785662"
+        }
+      },
+      {
+        "m": 15,
+        "bound_per_key": {
+          "lower": "40.889677530888372527948789282453233673192544119",
+          "upper": "40.889677530888372527948789282454996566603394682"
+        },
+        "method": "retained_chain_length_mixture",
+        "mixture_bound_per_key": {
+          "lower": "40.889677530888372527948789282453233673192544119",
+          "upper": "40.889677530888372527948789282454996566603394682"
+        }
+      },
+      {
+        "m": 17,
+        "bound_per_key": {
+          "lower": "40.900597627308532941742675165205192584209081615",
+          "upper": "40.900597627308532941742675165207477395159506131"
+        },
+        "method": "retained_chain_length_mixture",
+        "mixture_bound_per_key": {
+          "lower": "40.900597627308532941742675165205192584209081615",
+          "upper": "40.900597627308532941742675165207477395159506131"
+        }
+      },
+      {
+        "m": 14,
+        "bound_per_key": {
+          "lower": "40.901580164991350659174276181481259416286080801",
+          "upper": "40.901580164991350659174276181483574325746177754"
+        },
+        "method": "retained_chain_length_mixture",
+        "mixture_bound_per_key": {
+          "lower": "40.901580164991350659174276181481259416286080801",
+          "upper": "40.901580164991350659174276181483574325746177754"
+        }
+      },
+      {
+        "m": 18,
+        "bound_per_key": {
+          "lower": "40.92065065123901373674349553230773706524785594",
+          "upper": "40.920650651239013736743495532310946710242879223"
+        },
+        "method": "retained_chain_length_mixture",
+        "mixture_bound_per_key": {
+          "lower": "40.92065065123901373674349553230773706524785594",
+          "upper": "40.920650651239013736743495532310946710242879223"
+        }
+      }
+    ],
+    "w": {
+      "lower": "0.002176561100792549768504500594690668216334132",
+      "upper": "0.002176561100792549768504500594722002866947296"
+    },
+    "B": {
+      "lower": "6.69203174568780570534185682120316457315233913",
+      "upper": "6.692031745687805705341856821203347955588725994"
+    },
+    "K": {
+      "lower": "0.014565615982932938853474787166386556737502411",
+      "upper": "0.01456561598293293885347478716659664835722335"
+    },
+    "correction": {
+      "lower": "-0.010753002078731695414892043717001921786419955",
+      "upper": "-0.010753002078731695414892043716868435780320538"
+    },
+    "long_chain_first_pass_per_key": {
+      "lower": "50.970731313072141522742319876591586762976057091419703005866749353",
+      "upper": "50.970731313072141522742319876591586762976057091419703005866749354"
+    },
+    "checks": {
+      "ordered_temperatures": true,
+      "positive_w": true,
+      "positive_B": true,
+      "all_m_1_through_200_above_integer_target": true,
+      "m_at_least_201_first_pass_alone_above_target": true,
+      "one_pass_table_above_target": true
+    },
+    "passed": true
+  },
+  "passed": true
+}

@@ -1,4 +1,5 @@
 import Shellsort.ActualMenuMoment
+import Shellsort.AdjacentMomentEnvelope
 import Shellsort.AdjacentComparisonSensitivity
 import Shellsort.AppendLargestCost
 import Shellsort.CanonicalWarmStart
@@ -31,3 +32,6 @@ import Shellsort.WinnerGapIndexRecurrence
 #print axioms Shellsort.CanonicalWarmStart.exists_minimizing_block_step
 #check Shellsort.CanonicalWarmStart.geometric_budget
 #print axioms Shellsort.CanonicalWarmStart.geometric_budget
+
+#check Shellsort.AdjacentMomentEnvelope.all_prefixes
+#print axioms Shellsort.AdjacentMomentEnvelope.all_prefixes

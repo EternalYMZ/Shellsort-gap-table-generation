@@ -1,0 +1,390 @@
+{
+  "scope": "All n=3,...,7 and h>g plus three n=8 cases, all input permutations",
+  "checks": [
+    "Exact blockwise mean second-pass shifts",
+    "Second-pass record-minimum bound, with h-sort as sole prefix"
+  ],
+  "passed": true,
+  "cases": [
+    {
+      "n": 3,
+      "h": 2,
+      "g": 1,
+      "permutations": 6,
+      "exact_expected_inversions": "2/3",
+      "exact_expected_failed_comparisons": "5/3",
+      "record_bound": "3/2",
+      "passed": true
+    },
+    {
+      "n": 4,
+      "h": 2,
+      "g": 1,
+      "permutations": 24,
+      "exact_expected_inversions": "4/3",
+      "exact_expected_failed_comparisons": "5/2",
+      "record_bound": "5/2",
+      "passed": true
+    },
+    {
+      "n": 4,
+      "h": 3,
+      "g": 1,
+      "permutations": 24,
+      "exact_expected_inversions": "11/6",
+      "exact_expected_failed_comparisons": "29/12",
+      "record_bound": "13/6",
+      "passed": true
+    },
+    {
+      "n": 4,
+      "h": 3,
+      "g": 2,
+      "permutations": 24,
+      "exact_expected_inversions": "2/3",
+      "exact_expected_failed_comparisons": "4/3",
+      "record_bound": "1",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "h": 2,
+      "g": 1,
+      "permutations": 120,
+      "exact_expected_inversions": "8/5",
+      "exact_expected_failed_comparisons": "18/5",
+      "record_bound": "7/2",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "h": 3,
+      "g": 1,
+      "permutations": 120,
+      "exact_expected_inversions": "8/3",
+      "exact_expected_failed_comparisons": "33/10",
+      "record_bound": "19/6",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "h": 3,
+      "g": 2,
+      "permutations": 120,
+      "exact_expected_inversions": "1",
+      "exact_expected_failed_comparisons": "12/5",
+      "record_bound": "5/3",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "h": 4,
+      "g": 1,
+      "permutations": 120,
+      "exact_expected_inversions": "7/2",
+      "exact_expected_failed_comparisons": "193/60",
+      "record_bound": "35/12",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "h": 4,
+      "g": 2,
+      "permutations": 120,
+      "exact_expected_inversions": "7/6",
+      "exact_expected_failed_comparisons": "13/6",
+      "record_bound": "2",
+      "passed": true
+    },
+    {
+      "n": 5,
+      "h": 4,
+      "g": 3,
+      "permutations": 120,
+      "exact_expected_inversions": "2/3",
+      "exact_expected_failed_comparisons": "4/3",
+      "record_bound": "1",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 2,
+      "g": 1,
+      "permutations": 720,
+      "exact_expected_inversions": "12/5",
+      "exact_expected_failed_comparisons": "9/2",
+      "record_bound": "9/2",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 3,
+      "g": 1,
+      "permutations": 720,
+      "exact_expected_inversions": "4",
+      "exact_expected_failed_comparisons": "25/6",
+      "record_bound": "25/6",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 3,
+      "g": 2,
+      "permutations": 720,
+      "exact_expected_inversions": "5/3",
+      "exact_expected_failed_comparisons": "47/15",
+      "record_bound": "7/3",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 4,
+      "g": 1,
+      "permutations": 720,
+      "exact_expected_inversions": "9/2",
+      "exact_expected_failed_comparisons": "62/15",
+      "record_bound": "47/12",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 4,
+      "g": 2,
+      "permutations": 720,
+      "exact_expected_inversions": "4/3",
+      "exact_expected_failed_comparisons": "10/3",
+      "record_bound": "3",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 4,
+      "g": 3,
+      "permutations": 720,
+      "exact_expected_inversions": "5/6",
+      "exact_expected_failed_comparisons": "13/6",
+      "record_bound": "3/2",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 5,
+      "g": 1,
+      "permutations": 720,
+      "exact_expected_inversions": "17/3",
+      "exact_expected_failed_comparisons": "81/20",
+      "record_bound": "223/60",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 5,
+      "g": 2,
+      "permutations": 720,
+      "exact_expected_inversions": "7/3",
+      "exact_expected_failed_comparisons": "11/4",
+      "record_bound": "7/3",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 5,
+      "g": 3,
+      "permutations": 720,
+      "exact_expected_inversions": "7/6",
+      "exact_expected_failed_comparisons": "11/6",
+      "record_bound": "3/2",
+      "passed": true
+    },
+    {
+      "n": 6,
+      "h": 5,
+      "g": 4,
+      "permutations": 720,
+      "exact_expected_inversions": "2/3",
+      "exact_expected_failed_comparisons": "4/3",
+      "record_bound": "1",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 2,
+      "g": 1,
+      "permutations": 5040,
+      "exact_expected_inversions": "96/35",
+      "exact_expected_failed_comparisons": "39/7",
+      "record_bound": "11/2",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 3,
+      "g": 1,
+      "permutations": 5040,
+      "exact_expected_inversions": "68/15",
+      "exact_expected_failed_comparisons": "186/35",
+      "record_bound": "31/6",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 3,
+      "g": 2,
+      "permutations": 5040,
+      "exact_expected_inversions": "29/15",
+      "exact_expected_failed_comparisons": "871/210",
+      "record_bound": "10/3",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 4,
+      "g": 1,
+      "permutations": 5040,
+      "exact_expected_inversions": "6",
+      "exact_expected_failed_comparisons": "211/42",
+      "record_bound": "59/12",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 4,
+      "g": 2,
+      "permutations": 5040,
+      "exact_expected_inversions": "2",
+      "exact_expected_failed_comparisons": "25/6",
+      "record_bound": "4",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 4,
+      "g": 3,
+      "permutations": 5040,
+      "exact_expected_inversions": "7/6",
+      "exact_expected_failed_comparisons": "97/30",
+      "record_bound": "13/6",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 5,
+      "g": 1,
+      "permutations": 5040,
+      "exact_expected_inversions": "41/6",
+      "exact_expected_failed_comparisons": "524/105",
+      "record_bound": "283/60",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 5,
+      "g": 2,
+      "permutations": 5040,
+      "exact_expected_inversions": "17/6",
+      "exact_expected_failed_comparisons": "47/12",
+      "record_bound": "37/12",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 5,
+      "g": 3,
+      "permutations": 5040,
+      "exact_expected_inversions": "3/2",
+      "exact_expected_failed_comparisons": "29/10",
+      "record_bound": "13/6",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 5,
+      "g": 4,
+      "permutations": 5040,
+      "exact_expected_inversions": "5/6",
+      "exact_expected_failed_comparisons": "13/6",
+      "record_bound": "3/2",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 6,
+      "g": 1,
+      "permutations": 5040,
+      "exact_expected_inversions": "25/3",
+      "exact_expected_failed_comparisons": "687/140",
+      "record_bound": "91/20",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 6,
+      "g": 2,
+      "permutations": 5040,
+      "exact_expected_inversions": "10/3",
+      "exact_expected_failed_comparisons": "43/12",
+      "record_bound": "10/3",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 6,
+      "g": 3,
+      "permutations": 5040,
+      "exact_expected_inversions": "5/3",
+      "exact_expected_failed_comparisons": "8/3",
+      "record_bound": "5/2",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 6,
+      "g": 4,
+      "permutations": 5040,
+      "exact_expected_inversions": "7/6",
+      "exact_expected_failed_comparisons": "11/6",
+      "record_bound": "3/2",
+      "passed": true
+    },
+    {
+      "n": 7,
+      "h": 6,
+      "g": 5,
+      "permutations": 5040,
+      "exact_expected_inversions": "2/3",
+      "exact_expected_failed_comparisons": "4/3",
+      "record_bound": "1",
+      "passed": true
+    },
+    {
+      "n": 8,
+      "h": 5,
+      "g": 3,
+      "permutations": 40320,
+      "exact_expected_inversions": "11/6",
+      "exact_expected_failed_comparisons": "119/30",
+      "record_bound": "17/6",
+      "passed": true
+    },
+    {
+      "n": 8,
+      "h": 4,
+      "g": 1,
+      "permutations": 40320,
+      "exact_expected_inversions": "8",
+      "exact_expected_failed_comparisons": "71/12",
+      "record_bound": "71/12",
+      "passed": true
+    },
+    {
+      "n": 8,
+      "h": 3,
+      "g": 2,
+      "permutations": 40320,
+      "exact_expected_inversions": "12/5",
+      "exact_expected_failed_comparisons": "731/140",
+      "record_bound": "13/3",
+      "passed": true
+    }
+  ]
+}

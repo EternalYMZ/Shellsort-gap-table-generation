@@ -1,0 +1,195 @@
+{
+  "n": 1000000000,
+  "arithmetic": "Fraction intervals; 32-term rigorous logarithm series; outward rational sqrt.",
+  "kappa_source": "Recomputed from the defining finite order-statistic hypergeometric sums.",
+  "scope": "Analytic two-pass structure theorem plus exact scalar certificate. No Lean verification or global optimizer claim.",
+  "pass_results": [
+    {
+      "at_most_passes": 7,
+      "t_exact": "0.8615169789675514",
+      "u_exact": "0.862089636727044",
+      "total_comparison_lower_bound": 50054104988,
+      "uniform_per_key_bound": {
+        "lower": "50.054104988815862787989228838336058621155399999",
+        "upper": "50.05410498881586278798922883852943185762560594"
+      },
+      "improvement_over_one_temperature_bound": 36761785,
+      "signed_margin_above_50_billion": 54104988,
+      "smallest_rows": [
+        {
+          "m": 24,
+          "bound_per_key": {
+            "lower": "50.054104988815862787989228838336058621155399999",
+            "upper": "50.05410498881586278798922883852943185762560594"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "50.054104988815862787989228838336058621155399999",
+            "upper": "50.05410498881586278798922883852943185762560594"
+          }
+        },
+        {
+          "m": 23,
+          "bound_per_key": {
+            "lower": "50.056186089236953023948100865418910875878150182",
+            "upper": "50.0561860892369530239481008656049048704062336"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "50.056186089236953023948100865418910875878150182",
+            "upper": "50.0561860892369530239481008656049048704062336"
+          }
+        },
+        {
+          "m": 25,
+          "bound_per_key": {
+            "lower": "50.061008337122897582974247280315116325519992181",
+            "upper": "50.061008337122897582974247280516012654021079263"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "50.061008337122897582974247280315116325519992181",
+            "upper": "50.061008337122897582974247280516012654021079263"
+          }
+        },
+        {
+          "m": 22,
+          "bound_per_key": {
+            "lower": "50.067930087522023978286946741025966546239775505",
+            "upper": "50.067930087522023978286946741204662665284677257"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "50.067930087522023978286946741025966546239775505",
+            "upper": "50.067930087522023978286946741204662665284677257"
+          }
+        },
+        {
+          "m": 26,
+          "bound_per_key": {
+            "lower": "50.07628210513985373155377260794080988964072178",
+            "upper": "50.076282105139853731553772608149202366247887033"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "50.07628210513985373155377260794080988964072178",
+            "upper": "50.076282105139853731553772608149202366247887033"
+          }
+        }
+      ],
+      "rows_where_cross_row_Cauchy_radical_is_certifiably_positive": 34,
+      "w": {
+        "lower": "0.004457839138210761014258546306183405423114164",
+        "upper": "0.004457839138210761014258546306228392322376812"
+      },
+      "first_pass_long_chain_bound_per_key": {
+        "lower": "50.970731313072141522742319876591586762976057091419703005866749353",
+        "upper": "50.970731313072141522742319876591586762976057091419703005866749354"
+      },
+      "checks": {
+        "ordered_temperatures": true,
+        "positive_w": true,
+        "positive_same_row_B": true,
+        "kappa_16_matches_independent_exact_value": true,
+        "all_m_1_through_200_above_integer_target": true,
+        "m_at_least_201_first_pass_alone_above_target": true,
+        "one_pass_table_above_target": true
+      },
+      "passed": true
+    },
+    {
+      "at_most_passes": 8,
+      "t_exact": "0.806886602104151",
+      "u_exact": "0.8078956997072975",
+      "total_comparison_lower_bound": 40912368737,
+      "uniform_per_key_bound": {
+        "lower": "40.912368737960767327449554274956419707466059571",
+        "upper": "40.91236873796076732744955427504119709826561509"
+      },
+      "improvement_over_one_temperature_bound": 36412743,
+      "signed_margin_above_50_billion": -9087631263,
+      "smallest_rows": [
+        {
+          "m": 16,
+          "bound_per_key": {
+            "lower": "40.912368737960767327449554274956419707466059571",
+            "upper": "40.91236873796076732744955427504119709826561509"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "40.912368737960767327449554274956419707466059571",
+            "upper": "40.91236873796076732744955427504119709826561509"
+          }
+        },
+        {
+          "m": 15,
+          "bound_per_key": {
+            "lower": "40.912582684876917013372943319087494679008831899",
+            "upper": "40.912582684876917013372943319167293543723174043"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "40.912582684876917013372943319087494679008831899",
+            "upper": "40.912582684876917013372943319167293543723174043"
+          }
+        },
+        {
+          "m": 17,
+          "bound_per_key": {
+            "lower": "40.924590134719326050909970395809865483519818302",
+            "upper": "40.924590134719326050909970395899715033627558979"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "40.924590134719326050909970395809865483519818302",
+            "upper": "40.924590134719326050909970395899715033627558979"
+          }
+        },
+        {
+          "m": 14,
+          "bound_per_key": {
+            "lower": "40.926569386687671058506200220175265352728714399",
+            "upper": "40.926569386687671058506200220250265598378221693"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "40.926569386687671058506200220175265352728714399",
+            "upper": "40.926569386687671058506200220250265598378221693"
+          }
+        },
+        {
+          "m": 18,
+          "bound_per_key": {
+            "lower": "40.94807420002980379775268631645885408895774089",
+            "upper": "40.948074200029803797752686316553757014192873192"
+          },
+          "method": "cross_row_kappa_mixture",
+          "cross_row_bound_per_key": {
+            "lower": "40.94807420002980379775268631645885408895774089",
+            "upper": "40.948074200029803797752686316553757014192873192"
+          }
+        }
+      ],
+      "rows_where_cross_row_Cauchy_radical_is_certifiably_positive": 22,
+      "w": {
+        "lower": "0.005824731578886839952601012163628171860677605",
+        "upper": "0.005824731578886839952601012163659402264596496"
+      },
+      "first_pass_long_chain_bound_per_key": {
+        "lower": "50.970731313072141522742319876591586762976057091419703005866749353",
+        "upper": "50.970731313072141522742319876591586762976057091419703005866749354"
+      },
+      "checks": {
+        "ordered_temperatures": true,
+        "positive_w": true,
+        "positive_same_row_B": true,
+        "kappa_16_matches_independent_exact_value": true,
+        "all_m_1_through_200_above_integer_target": true,
+        "m_at_least_201_first_pass_alone_above_target": true,
+        "one_pass_table_above_target": true
+      },
+      "passed": true
+    }
+  ],
+  "passed": true
+}

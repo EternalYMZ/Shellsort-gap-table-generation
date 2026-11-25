@@ -1,0 +1,3 @@
+# Optional numerical exploration only; exact certificates need no packages.
+numpy
+scipy
