@@ -11,6 +11,7 @@ import Shellsort.OnlineTripleGaps
 import Shellsort.OptimalScanPruning
 import Shellsort.PredrawnMenuMoment
 import Shellsort.RankMesh
+import Shellsort.RecordMomentBounds
 import Shellsort.RoughGapApproximate
 import Shellsort.RoughGapCanonical
 import Shellsort.RoughGapResidueAverage
@@ -35,3 +36,10 @@ import Shellsort.WinnerGapIndexRecurrence
 
 #check Shellsort.AdjacentMomentEnvelope.all_prefixes
 #print axioms Shellsort.AdjacentMomentEnvelope.all_prefixes
+
+#check Shellsort.RecordMomentBounds.executed_charge
+#print axioms Shellsort.RecordMomentBounds.executed_charge
+#check Shellsort.RecordMomentBounds.record_bounds
+#print axioms Shellsort.RecordMomentBounds.record_bounds
+#check Shellsort.RecordMomentBounds.comparison_bounds
+#print axioms Shellsort.RecordMomentBounds.comparison_bounds

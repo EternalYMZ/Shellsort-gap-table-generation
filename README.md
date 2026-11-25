@@ -6,6 +6,8 @@ Six roots cover prefix moments, a menu tail bound, pruning with a comparison bud
 
 The November 25 update adds an order-uniform conditional moment bound, replayable seven- and eight-pass comparison certificates, a census of product gap tables at one billion keys and exact all-winner searches through nine keys. [Results, conditions and reproduction](research/2026-11-25/README.md)
 
+For the specified eight-pass table at one billion uniformly permuted keys, the mean exceeds 41,641,698,503 key comparisons. Its fourth pass alone has mean strictly between 5,135,574,733 and 5,287,379,676. Separate bounds cover all legal second gaps after the fixed first gap 62,500,000. The occupancy analysis also gives executable insertion and finite-law record moment bounds in Lean. [Finite certificates](research/2026-11-25/prefix-certificates.md) · [Occupancy and moments](research/2026-11-25/occupancy-grid.md) · [Formal statements](Shellsort/RecordMomentBounds.lean)
+
 ## Check the Lean statements
 
 With Git and elan installed, run from the repository root:

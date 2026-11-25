@@ -1,0 +1,22 @@
+{
+  "export_file_path": ".lake/p09-record-moments.jsonl",
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "unsafe_permit_all_axioms": false,
+  "unpermitted_axiom_hard_error": true,
+  "nat_extension": true,
+  "string_extension": true,
+  "pp_declars": [
+    "Shellsort.RecordMomentBounds.executed_charge",
+    "Shellsort.RecordMomentBounds.record_bounds",
+    "Shellsort.RecordMomentBounds.comparison_bounds"
+  ],
+  "pp_output_path": ".lake/p09-record-statements.txt",
+  "pp_options": {
+    "proofs": false
+  },
+  "print_success_message": true
+}
